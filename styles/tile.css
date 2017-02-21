@@ -1,0 +1,112 @@
+div#memory_board{
+	border:#999 1px solid;
+	width:520px;
+	height:520px;
+	padding:24px;
+	margin:0px auto;
+	margin-top: 3%;
+	background: grey;    
+    background: -webkit-linear-gradient(left, grey , lightgreen);
+    background: -o-linear-gradient(right, grey, lightgreen);
+    background: -moz-linear-gradient(right, grey, lightgreen);
+    background: linear-gradient(to right, grey , lightgreen);
+}
+
+div#memory_board > div{
+	background: url(../images/image1.jpg) no-repeat;
+	border:#000 1px solid;
+	width:90px;
+	height:90px;
+	float:left;
+	margin:12px;
+	padding:0px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
+
+.flip{
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	-o-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.animate{
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+}
+
+#header{
+	text-align: center;
+	text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+    color: #505050;
+    font-weight: bold;	
+}
+
+#new-btn{
+	float: right;
+    margin-right: 27%;
+}
+
+#match_found{
+	margin-left: 27%;
+    font-size: 15px;
+    color: #505050;
+}
+
+#level{
+	float: right;
+    margin-right: 27%;
+    margin-top: -2%;
+    font-size: 15px;
+    color: #505050;	
+    border: 1px solid #505050;
+    width: 8%;
+    padding-left: 6px;
+   background-color: lightgrey;
+}
+
+#score{
+	margin-left: 27%;
+    margin-top: 3%;
+    font-size: 15px;
+    color: #505050;	
+    border: 1px solid #505050;
+    width: 8%;
+    padding-left: 6px;
+   background-color: lightgrey;
+}
+
+#newGameModal .modal-title, #newGameModal .modal-body,#StartGameModal .modal-title, #StartGameModal .modal-body {
+    text-align: center;
+}
+
+#newGameModal .modal-dialog,#StartGameModal .modal-dialog{
+	margin-top: 10%;
+	width: 350px;
+}
+
+#newGameModal .modal-content,#StartGameModal .modal-content{
+	background-color: lightgrey;
+}
+
+#newGameModal .modal-header,#StartGameModal .modal-header{
+	border-bottom: 0px;
+}
+
+#newGameModal .modal-footer,#StartGameModal .modal-footer{
+	border-top: 0px;
+}
+
